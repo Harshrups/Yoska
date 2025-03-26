@@ -1,7 +1,6 @@
 package Pages;
 
 import org.openqa.selenium.*;
-import org.openqa.selenium.WebDriver;
 
 public class Register {
 
@@ -13,6 +12,7 @@ public class Register {
 	String xpath_lastname_textfield="//input[@name='lastName']";
 	String xpath_password_textfield="//input[@name='password']";
 	String xpath_register_btn="//button[@class='MuiButtonBase-root MuiButton-root MuiLoadingButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-fullWidth MuiButton-root MuiLoadingButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-fullWidth mb0 css-83kvie']";
+	String xpath_ok_popup="//button[@class='swal2-confirm swal2-styled']";
 	
 	
 	public Register(WebDriver rdriver)
@@ -75,6 +75,10 @@ public class Register {
 		driver.findElement(By.xpath(xpath_register_btn)).click();
 	}
 	
-	
+	public void Clickokpopu() throws InterruptedException
+	{
+		Thread.sleep(3000);
+		driver.findElement(By.xpath(xpath_ok_popup)).click();
+	}
 }
 

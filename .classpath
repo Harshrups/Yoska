@@ -88,5 +88,12 @@
 	<classpathentry kind="lib" path="D:/Selenium java jars/selenium-java-4.29.0/selenium-support-4.29.0.jar"/>
 	<classpathentry kind="lib" path="D:/Selenium java jars/selenium-java-4.29.0/selenium-support-4.29.0-sources.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/Selenium java jars/Firebase jars/Unconfirmed 239707.crdownload"/>
+	<classpathentry kind="lib" path="D:/Selenium java jars/Firebase jars/Unconfirmed 264741.crdownload"/>
+	<classpathentry kind="lib" path="D:/Selenium java jars/Firebase jars/Unconfirmed 334875.crdownload"/>
+	<classpathentry kind="lib" path="D:/Selenium java jars/Firebase jars/Unconfirmed 485514.crdownload"/>
+	<classpathentry kind="lib" path="D:/Selenium java jars/Firebase jars/Unconfirmed 678842.crdownload"/>
+	<classpathentry kind="lib" path="D:/Selenium java jars/Firebase jars/Unconfirmed 691362.crdownload"/>
+	<classpathentry kind="lib" path="D:/Selenium java jars/Firebase jars/Unconfirmed 913990.crdownload"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

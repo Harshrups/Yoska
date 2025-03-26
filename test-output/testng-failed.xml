@@ -6,7 +6,6 @@
       <class name="Test_Cases.Verify_Register">
         <methods>
           <include name="test_verify_register_functionality_001"/>
-          <include name="tearDown"/>
           <include name="setup"/>
         </methods>
       </class> <!-- Test_Cases.Verify_Register -->
